@@ -5,6 +5,9 @@
  * Copyright 2012, Gustavo Leon
  * Released under the MIT License.
  */
+ /*
+ *test x
+ */
 
 var GMaps = (function() {
   "use strict";
