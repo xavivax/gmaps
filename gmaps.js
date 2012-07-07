@@ -44,7 +44,7 @@ var GMaps = (function() {
     this.overlay_div = null;
     this.zoom = options.zoom || 15;
 
-    //'Hybrid', 'Roadmap', 'Satellite' or 'Terrain'
+ /*test modif*/
     var mapType;
 
     if (options.mapType) {
@@ -99,7 +99,7 @@ var GMaps = (function() {
 
     this.map = new google.maps.Map(this.div, map_options);
 
-    // Context menus
+    /*Ligne ci-dessus supprimée*/
     var buildContextMenuHTML = function(control, e) {
         var html = '';
         var options = window.context_menu[control];
